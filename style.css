@@ -1,0 +1,43 @@
+@import url("style/header.css");
+@import url("style/bunner.css");
+@import url("style/carrossel.css");
+@import url("style/topicos.css");
+@import url("style/contato.css");
+@import url("style/footer.css");
+
+
+:root{
+    --cor-de--fundo: #ebecee;
+    --branco: #ffffff;
+    --laranja: #eb9000;
+    --amarelo-botao: rgba(235, 155, 0, 1);
+    --azul: #002f52;
+    --preto: rgba(0, 0, 0, 0.85);
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --fonte-footer: rgb(71, 70, 70, 1);
+    --cinza-claro: rgba(133, 133, 133, 1);
+
+
+}
+
+body{
+    background-color: var(--cor-de--fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+hr{
+    margin:0
+}
+
+.footer{
+    background: rgba(249, 249, 249, 1);
+    padding: 1em;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
